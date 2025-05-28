@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Fetched-Adoption
+Fetched Dog Finder is a React application that connects users with their ideal dog companion using the Fetch API. Users can log in, filter and search through dog profiles, mark their favorites, and generate their best match based on preferences.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- User Authentication: Simple name/email login flow with session support.
+- Search and Filtering: Filter dogs by breed, age range, zip code, and sort by name, age, or breed.
+- Favorites: Mark dogs as favorites to help narrow your ideal match.
+- Match Generator: Get paired with a compatible dog based on your selected favorites.
+- Pagination: Navigate through paged search results.
+- Responsive UI: Clean, accessible, and responsive design with TailwindCSS and Lucide icons.
 
-## Available Scripts
+## 🛠Tech Stack
+- React
+- TypeScript
+- TailwindCSS
+- Lucide-react – Icon library
+- Fetch API – For all backend communication
+- Fetch.com Take-Home API – Custom API endpoints for dog data and authentication
 
-In the project directory, you can run:
+## Getting Started
+**Prerequisites**
+- Node.js and npm installed
 
-### `npm start`
+**Installation**
+1. Clone the repository
+   ```python
+   git clone https://github.com/your-username/fetched-dog-finder.git
+   cd fetched-dog-finder
+   ```
+2. Install dependencies
+   ```python
+   npm install
+   ```
+3. Run server
+   ```python
+   npm run dev
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
+1. Login: Enter your name and email.
+2. Search: Use filters like age, breed, and zip codes to find potential dogs.
+3. Favorite Dogs: Click the heart icon to favorite dogs.
+4. Find a Match: Once you’ve selected some favorites, click “Find Match” to get your best companion.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## License
+MIT License
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact Information
+- **Author:** Chi Nguyen
+- **Email:** c.n91702@gmail.com
